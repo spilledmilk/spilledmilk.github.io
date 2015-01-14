@@ -22,11 +22,10 @@ body {
 
 #img-circle {
 	background-color: #fff;
-	width: 230px;
-	height: 230px;
+	width: 220px;
+	height: 220px;
 	border-radius: 50%;
 	border: solid 0.5em #000;
-	margin-bottom: 1em;
 }
 
 .cover-hi {
