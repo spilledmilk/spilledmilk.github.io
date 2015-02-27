@@ -2,7 +2,6 @@ body {
 	background-color: #ffe261;
 	color: #000;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
 	margin: 0;
 }
 
@@ -14,7 +13,7 @@ body {
 
 
 #cover {
-	margin-top: 15em;
+	margin-top: 5em;
 	vertical-align: center;
 	text-align: center;
 	padding: 0;
@@ -28,18 +27,8 @@ body {
 	border: solid 0.5em #000;
 }
 
-.cover-hi {
-	font-family: 'Pacifico', cursive;
-	font-size: 6em;
-	color: #00d3de;
-	text-align: center;
-	margin: 0;
-}
-
-.cover-const {
-	font-size: 2.5em;
-	text-align: center;
-	margin: 0;
+p {
+	font-size: 1.5em;
 }
 
 a {
@@ -53,25 +42,17 @@ a:hover {
 	text-shadow: 1px 1px 1px #de0000;
 }
 
-tr.spaceRight > td {
-	padding: 0 10em;
-}
-
-tr.spaceRight > td a {
-	font-family: 'Fredoka One', sans-serif;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 3em;
+/*This is just while it's under construction*/
+.cover-hi {
+	font-family: 'Pacifico', cursive;
+	font-size: 6em;
+	color: #00d3de;
 	text-align: center;
+	margin: 0;
 }
 
-tr.spaceRight > td a:hover {
-	text-decoration: none;
-	text-shadow: 3px 0 0 #de0000;
-}
-
-.responsive-img {
-	width: 100%;
-	height: auto;
+.cover-const {
+	font-size: 2.5em;
+	text-align: center;
+	margin: 0;
 }
