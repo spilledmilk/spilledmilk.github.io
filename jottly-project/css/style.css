@@ -1,0 +1,83 @@
+body {
+	font-size: 1.75em;
+	font-family: "Quicksand", Century Gothic, Helvetica, Arial, sans-serif;
+	line-height: 1.6;
+	color: #404040;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 700;
+}
+/* ------------------------HEADER------------------------ */
+/*Background Image and Shadow*/
+#header {
+	background-image: url('../images/business-coffee-mbp.jpg');
+	-moz-background-size: cover;
+  -webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	margin: 0;
+	min-height: 1050px;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,.75); /* drop shadow */
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,.75); /* drop shadow */
+	box-shadow: 0 1px 5px rgba(0,0,0,.75); /* drop shadow */
+}
+
+#marketing {
+	text-align: center;
+}
+
+/* --------STYLES FOR TEXT: HEADER AND BODY---------------- */
+#header-navlinks {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+#header-tagline {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#features-desciptions {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+#howto-steps {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#reviews-body {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#signup-tagline {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#footer-navlinks {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#footer-policies-links {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+}
