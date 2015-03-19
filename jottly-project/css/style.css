@@ -182,6 +182,25 @@ header div:nth-of-type(3) {
 	height: 98px;
 }
 
+#footer-navlinks ul li {
+	float: left;
+	display: inline;
+	list-style: none;
+	padding: 10px;
+}
+
+#footer-policies-links ul {
+	text-align: center;
+	padding: 25px 0 0;
+	margin: 0;
+}
+
+#footer-policies-links ul li {
+	display: inline;
+	list-style: none;
+	padding: 0 10px;
+}
+
 /* --------STYLES FOR TEXT: HEADER AND BODY------------------ */
 #header-navlinks {
 	color: #404040;
@@ -226,13 +245,28 @@ header div:nth-of-type(3) {
 	font-weight: 700;
 }
 
+#footer-copyright {
+	color: #e9e5e5;
+	font-size: 16px;
+	font-weight: 400;
+}
+
 /* --------STYLES FOR LINKS: HEADER AND BODY------------------ */
-#header-navlinks a {
-	color: #404040;
+a {
 	text-decoration: none;
 }
 
-#header-navlinks a:hover {
+#header-navlinks a {
+	color: #404040;
+}
+
+#footer-navlinks a,
+#footer-policies-links a {
+	color: #ffffff;
+}
+
+#header-navlinks a:hover,
+#footer-navlinks a:hover {
 	border-bottom: solid 2px #55bbc4;
 	padding-bottom: 5px;
 }
