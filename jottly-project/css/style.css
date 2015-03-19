@@ -28,7 +28,30 @@ p {
 	line-height: 1em;
 }
 /* ------------------------HEADER------------------------ */
-/*Background Image and Shadow*/
+header div img {
+	float: left;
+	display: inline;
+	padding: 5px 0;
+}
+
+header div nav {
+	height: 93px;
+	padding: 35px 0;
+}
+
+header div nav ul li{
+	float: center;
+	display: inline;
+	list-style: none;
+	padding: 0 5%;
+}
+
+header div:nth-of-type(3) {
+	margin: 2% 0;
+	float: right;
+	display: inline;
+}
+
 #header {
 	background-image: url('../images/business-coffee-mbp.jpg');
 	-moz-background-size: cover;
@@ -49,60 +72,81 @@ p {
 }
 
 #marketing {
+	padding: 35% 0;
 }
 
-/* --------SIGN-UP BUTTON (STYLING, NOT SIZE)---------------- */
-#signup-button {
-    display: inline-block;
-    /*margin-top: 20%;*/
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    -webkit-box-shadow:    0 8px 0 #235f4d, 0 15px 20px rgba(0, 0, 0, .35);
-    -moz-box-shadow: 0 8px 0 #235f4d, 0 15px 20px rgba(0, 0, 0, .35);
-    box-shadow: 0 8px 0 #235f4d, 0 15px 20px rgba(0, 0, 0, .35);
-    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
-    -moz-transition: -moz-box-shadow .1s ease-in-out;
-    -o-transition: -o-box-shadow .1s ease-in-out;
-    transition: box-shadow .1s ease-in-out;
-    font-size: 25px;
-    font-weight: 700;
-    color: #fff;
-}
+/* --------------------SIGN-UP BUTTON------------------------ */
 
+/*DIFFERENT SIZES*/
 #signup-button span {
-    display: inline-block;
-    padding: 20px 30px;
-    background-color: #45bb9b;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
-    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
-    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
-    line-height: 1;
-    text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
-    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
-    -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
-    -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
-    transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+	padding: 20px 30px;
+  font-size: 25px;
 }
 
-#signup-button:hover span {
-    background-color: #45bb9b;
+#signup-nav span {
+	padding: 12px 25px;
+	font-size: 16px;
 }
 
-#signup-button:active, #signup-button:focus {
-    -webkit-box-shadow:    0 8px 0 #235f4d, 0 12px 10px rgba(0, 0, 0, .3);
-    -moz-box-shadow: 0 8px 0 #235f4d, 0 12px 10px rgba(0, 0, 0, .3);
-    box-shadow:    0 8px 0 #235f4d, 0 12px 10px rgba(0, 0, 0, .3);
+/*APPLIED TO ALL - STYLE*/
+#signup-button,
+#signup-nav {
+  display: inline-block;
+  /*margin-top: 20%;*/
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow:    0 8px 0 #235f4d, 0 15px 20px rgba(0, 0, 0, .35);
+  -moz-box-shadow: 0 8px 0 #235f4d, 0 15px 20px rgba(0, 0, 0, .35);
+  box-shadow: 0 8px 0 #235f4d, 0 15px 20px rgba(0, 0, 0, .35);
+  -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+  -moz-transition: -moz-box-shadow .1s ease-in-out;
+  -o-transition: -o-box-shadow .1s ease-in-out;
+  transition: box-shadow .1s ease-in-out;
+  color: #fff;
+  font-weight: 700;
 }
 
-#signup-button:active span {
-    -webkit-transform: translate(0, 4px);
-    -moz-transform: translate(0, 4px);
-    -o-transform: translate(0, 4px);
-    transform: translate(0, 4px);
+#signup-button span,
+#signup-nav span {
+  display: inline-block;
+  /*padding: 20px 30px;*/
+  background-color: #45bb9b;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+  -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+  line-height: 1;
+  text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+  -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+  -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+  -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+  transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+}
+
+
+#signup-button:hover span,
+#signup-nav:hover span {
+  background-color: #45bb9b;
+}
+
+#signup-button:active,
+#signup-button:focus,
+#signup-nav:active,
+#signup-nav:focus {
+  -webkit-box-shadow:    0 8px 0 #235f4d, 0 12px 10px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 8px 0 #235f4d, 0 12px 10px rgba(0, 0, 0, .3);
+  box-shadow:    0 8px 0 #235f4d, 0 12px 10px rgba(0, 0, 0, .3);
+}
+
+#signup-button:active span,
+#signup-nav:active span {
+  -webkit-transform: translate(0, 4px);
+  -moz-transform: translate(0, 4px);
+  -o-transform: translate(0, 4px);
+  transform: translate(0, 4px);
 }
 
 /* ----------------HIGHLIGHTS & FEATURES--------------------- */
@@ -140,7 +184,7 @@ p {
 
 /* --------STYLES FOR TEXT: HEADER AND BODY------------------ */
 #header-navlinks {
-	color: #fff;
+	color: #404040;
 	font-size: 15px;
 	font-weight: 700;
 }
@@ -180,4 +224,15 @@ p {
 	color: #fff;
 	font-size: 18px;
 	font-weight: 700;
+}
+
+/* --------STYLES FOR LINKS: HEADER AND BODY------------------ */
+#header-navlinks a {
+	color: #404040;
+	text-decoration: none;
+}
+
+#header-navlinks a:hover {
+	border-bottom: solid 2px #55bbc4;
+	padding-bottom: 5px;
 }
