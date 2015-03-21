@@ -25,8 +25,9 @@ h3 {
 }
 
 p {
-	line-height: 1em;
+	line-height: 1.2em;
 }
+
 /* ------------------------HEADER------------------------ */
 header div img {
 	float: left;
@@ -88,9 +89,16 @@ header div:nth-of-type(3) {
 	font-size: 16px;
 }
 
+#signup-email {
+	padding: 4px 30px;
+	font-size: 14px;
+}
+
 /*APPLIED TO ALL - STYLE*/
+input[type="submit"],
 #signup-button,
-#signup-nav {
+#signup-nav,
+#signup-email {
   display: inline-block;
   /*margin-top: 20%;*/
   -webkit-border-radius: 8px;
@@ -105,10 +113,13 @@ header div:nth-of-type(3) {
   transition: box-shadow .1s ease-in-out;
   color: #fff;
   font-weight: 700;
+  border-color: #45bb9b;
 }
 
+input[type="submit"],
 #signup-button span,
-#signup-nav span {
+#signup-nav span,
+#signup-email span {
   display: inline-block;
   /*padding: 20px 30px;*/
   background-color: #45bb9b;
@@ -126,23 +137,31 @@ header div:nth-of-type(3) {
   transition: background-color .2s ease-in-out, transform .1s ease-in-out;
 }
 
-
+input[type="submit"]:hover,
 #signup-button:hover span,
-#signup-nav:hover span {
+#signup-nav:hover span,
+#signup-email:hover span {
   background-color: #45bb9b;
+  border-color: #45bb9b;
 }
 
+input[type="submit"]:active,
+input[type="submit"]:focus,
 #signup-button:active,
 #signup-button:focus,
 #signup-nav:active,
-#signup-nav:focus {
+#signup-nav:focus,
+#signup-email:active,
+#signup-email:focus {
   -webkit-box-shadow:    0 8px 0 #235f4d, 0 12px 10px rgba(0, 0, 0, .3);
   -moz-box-shadow: 0 8px 0 #235f4d, 0 12px 10px rgba(0, 0, 0, .3);
   box-shadow:    0 8px 0 #235f4d, 0 12px 10px rgba(0, 0, 0, .3);
 }
 
+input[type="submit"]:active,
 #signup-button:active span,
-#signup-nav:active span {
+#signup-nav:active span,
+#signup-email:active span {
   -webkit-transform: translate(0, 4px);
   -moz-transform: translate(0, 4px);
   -o-transform: translate(0, 4px);
@@ -174,6 +193,28 @@ header div:nth-of-type(3) {
 #signup {
 	background-color: #ffffff;
 	height: 225px;
+}
+
+#signup div {
+	padding: 3.5rem 0;
+}
+
+#signup div.row {
+	padding: 1rem 0;
+}
+
+#email-input {
+	margin-top: 0.5rem;
+	width: 100%;
+}
+
+input[type="email"],
+input[type="email"]:focus,
+textarea:focus {
+	 -moz-box-shadow: inset  1px 1px 4px  #000000;
+   -webkit-box-shadow: inset  1px 1px 4px  #000000;
+   box-shadow: inset  1px 1px 4px  #000000;
+   border: none;
 }
 
 /* --------------------------FOOTER-------------------------- */
@@ -231,6 +272,7 @@ header div:nth-of-type(3) {
 #signup-tagline {
 	font-size: 20px;
 	font-weight: 400;
+	margin-bottom: 0;
 }
 
 #footer-navlinks {

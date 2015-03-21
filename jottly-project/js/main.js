@@ -1,3 +1,4 @@
+// OPACITY FOR BACKGROUND OBJECTS
 $('#header').transify({
 	opacityOrig:.5,
 	opacityNew:.5,
@@ -11,3 +12,5 @@ $('#navigation').transify({
 	// fadeSpeed:1000,
 	percentWidth:'100%'
 });
+
+// TEXTAREA
