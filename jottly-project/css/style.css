@@ -26,32 +26,39 @@ h3 {
 
 p {
 	line-height: 1.2em;
+	margin: 0;
 }
 
 /* ------------------------HEADER------------------------ */
-header div img {
+/*header div img {
 	float: left;
 	display: inline;
 	padding: 5px 0;
+}*/
+div .two.columns {
+	padding: 0 0 0;
+}
+
+div .eight.columns {
+	padding: 2rem 0 0;
 }
 
 header div nav {
-	height: 93px;
-	padding: 35px 0;
+	padding: 1rem 0 0;
 }
 
 header div nav ul li{
 	float: center;
 	display: inline;
 	list-style: none;
-	padding: 0 5%;
+	padding: 0 1rem;
 }
 
-header div:nth-of-type(3) {
+/*header div:nth-of-type(3) {
 	margin: 2% 0;
 	float: right;
 	display: inline;
-}
+}*/
 
 #header {
 	background-image: url('../images/business-coffee-mbp.jpg');
@@ -65,7 +72,7 @@ header div:nth-of-type(3) {
 
 #navigation {
 	background-color: #ffffff;
-	height: 93px;
+	padding: .5rem 0;
 	width: 100%;
 	-moz-box-shadow: 0 1px 5px rgba(0,0,0,.75);
 	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,.75);
@@ -174,11 +181,16 @@ input[type="submit"]:active,
 	-moz-box-shadow: 0 -1px 5px rgba(0,0,0,.5);
 	-webkit-box-shadow: 0 -1px 5px rgba(0,0,0,.5);
 	box-shadow: 0 -1px 5px rgba(0,0,0,.5);
-	height: 446px;
+	/*height: 446px;*/
+	padding: 2rem 0;
 }
 
 #features img {
 	padding: 3rem;
+}
+
+#features div.six.columns {
+	padding: 1rem;
 }
 
 #icon-background {
@@ -191,23 +203,14 @@ input[type="submit"]:active,
 	background-color: #55bbc3;
 }
 
-#features-top-row {
-	padding-top: 3rem;
-}
-
-
 /* ----------------------HOW IT WORKS------------------------ */
 #howitworks {
 	background-color: #ffffff;
-	height: 400px;
-}
-
-#howitworks h2 {
-	padding-top: 3rem;
+	padding: 2rem;
 }
 
 #howitworks div {
-	height: 32rem;
+	height: 100%;
 }
 
 #stepone,
@@ -217,42 +220,49 @@ input[type="submit"]:active,
 	background-position: center;
 }
 
+#howto-steps.one {
+	padding: 10rem 0;
+}
+
+#howto-steps.two,
+#howto-steps.three {
+	padding: 7.5rem 0;
+}
+
 /* ----------------------TESTIMONIALS------------------------ */
 #testimonials {
 	background-color: #f1f0f0;
-	height:359px;
+	padding: 2rem 0;
 }
 
 #testimonials img {
 	padding: 0;
 }
 
-#testimonials div h3 {
-	padding-top: 0.3rem;
-	margin-top: 5rem;
+#testimonials .six.columns h3 {
+	padding: 5rem 0 1rem;
 }
 
-#profiles-top-row {
-	padding-top: 1rem;
-	margin: 2.5rem 0 0 0;
-}
-
-#profiles-bottom-row {
-	padding-bottom: 1rem;
+#testimonials .six.columns p {
+	padding: 1rem 0 5rem;
 }
 
 /* ----------------------SIGN UP CTA------------------------ */
 #signup {
 	background-color: #ffffff;
-	height: 225px;
+	padding: 2rem 0;
 }
 
-#signup div {
-	padding: 3.5rem 0;
+#signup h2 {
+	padding: 2rem 0 0;
+}
+
+#signup p {
+	padding: 0 0 1rem;
 }
 
 #signup div.row {
-	padding: 1rem 0;
+	padding:0;
 }
 
 #email-input {
@@ -272,26 +282,34 @@ textarea:focus {
 /* --------------------------FOOTER-------------------------- */
 #footer {
 	background-color: #404040;
-	height: 98px;
+	padding: 2rem 0;
+	/*height: 98px;*/
+}
+
+#footer .seven.columns {
+	padding: 1.5rem 0 1rem;
+	text-align: center;
+}
+
+#footer-navlinks ul {
+	margin: 0;
 }
 
 #footer-navlinks ul li {
-	float: left;
 	display: inline;
 	list-style: none;
-	padding: 10px;
+	padding: 1rem;
 }
 
 #footer-policies-links ul {
 	text-align: center;
-	padding: 25px 0 0;
+	padding: 0 0 .5rem;
 	margin: 0;
 }
 
 #footer-policies-links ul li {
 	display: inline;
 	list-style: none;
-	padding: 0 10px;
 }
 
 /* --------STYLES FOR TEXT: HEADER AND BODY------------------ */
@@ -306,8 +324,8 @@ textarea:focus {
 	font-weight: 400;
 }
 
-#features-desciptions {
-	font-size: 15px;
+#features-descriptions {
+	font-size: 16px;
 	font-weight: 400;
 }
 
@@ -316,19 +334,9 @@ textarea:focus {
 	font-weight: 400;
 }
 
-#howto-steps.one {
-	padding-top: 12rem;
-}
-
-#howto-steps.two,
-#howto-steps.three {
-	padding-top: 10rem;
-}
-
 #reviews-body {
 	font-size: 18px;
 	font-weight: 400;
-	margin-bottom: 5rem;
 }
 
 #signup-tagline {
