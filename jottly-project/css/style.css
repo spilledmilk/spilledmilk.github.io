@@ -177,6 +177,25 @@ input[type="submit"]:active,
 	height: 446px;
 }
 
+#features img {
+	padding: 3rem;
+}
+
+#icon-background {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #55bbc3;
+}
+
+#features-top-row {
+	padding-top: 3rem;
+}
+
+
 /* ----------------------HOW IT WORKS------------------------ */
 #howitworks {
 	background-color: #ffffff;
@@ -187,6 +206,24 @@ input[type="submit"]:active,
 #testimonials {
 	background-color: #f1f0f0;
 	height:359px;
+}
+
+#testimonials img {
+	padding: 0;
+}
+
+#testimonials div h3 {
+	padding-top: 0.3rem;
+	margin-top: 5rem;
+}
+
+#profiles-top-row {
+	padding-top: 1rem;
+	margin: 2.5rem 0 0 0;
+}
+
+#profiles-bottom-row {
+	padding-bottom: 1rem;
 }
 
 /* ----------------------SIGN UP CTA------------------------ */
@@ -267,6 +304,7 @@ textarea:focus {
 #reviews-body {
 	font-size: 18px;
 	font-weight: 400;
+	margin-bottom: 5rem;
 }
 
 #signup-tagline {
