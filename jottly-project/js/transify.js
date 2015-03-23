@@ -19,6 +19,7 @@
 				backgroundColor:$this.css('backgroundColor'),
 				backgroundImage:$this.css('backgroundImage'),
 				backgroundRepeat:$this.css('backgroundRepeat'),
+				backgroundPosition:$this.css('backgroundPosition'),
 				borderTopColor:$this.css('borderTopColor'),
 				borderTopWidth:$this.css('borderTopWidth'),
 				borderTopStyle:$this.css('borderTopStyle'),
@@ -45,7 +46,6 @@
 				zIndex:10,
 				position:'relative',
 				background:'none',
-				backgroundSize:'cover', //*
 				border:'none'})
 
 			if (settings.opacityNew) {

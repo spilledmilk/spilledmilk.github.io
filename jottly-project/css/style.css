@@ -202,6 +202,21 @@ input[type="submit"]:active,
 	height: 400px;
 }
 
+#howitworks h2 {
+	padding-top: 3rem;
+}
+
+#howitworks div {
+	height: 32rem;
+}
+
+#stepone,
+#steptwo,
+#stepthree {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 /* ----------------------TESTIMONIALS------------------------ */
 #testimonials {
 	background-color: #f1f0f0;
@@ -298,7 +313,16 @@ textarea:focus {
 
 #howto-steps {
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: 400;
+}
+
+#howto-steps.one {
+	padding-top: 12rem;
+}
+
+#howto-steps.two,
+#howto-steps.three {
+	padding-top: 10rem;
 }
 
 #reviews-body {

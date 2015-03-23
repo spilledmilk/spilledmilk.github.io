@@ -13,4 +13,18 @@ $('#navigation').transify({
 	percentWidth:'100%'
 });
 
-// TEXTAREA
+
+$('#stepone').transify({
+	opacityOrig:.2,
+	opacityNew:.2,
+});
+
+$('#steptwo').transify({
+	opacityOrig:.2,
+	opacityNew:.2,
+});
+
+$('#stepthree').transify({
+	opacityOrig:.2,
+	opacityNew:.2,
+});
