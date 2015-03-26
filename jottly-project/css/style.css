@@ -1,5 +1,7 @@
+
+
 body {
-	font-size: 1.75em;
+	/*font-size: 1.1rem;*/
 	font-family: "Quicksand", Century Gothic, Helvetica, Arial, sans-serif;
 	line-height: 1.6;
 	color: #404040;
@@ -9,19 +11,20 @@ h1, h2, h3, h4 {
 	margin: 0;
 }
 
-h1 {
-	font-size: 48px;
+h1, h2, h3 {
 	font-weight: 700;
+}
+
+h1 {
+	font-size: 3.5em; /*48px*/
 }
 
 h2 {
-	font-size: 30px;
-	font-weight: 700;
+	font-size: 2em; /*30px*/
 }
 
 h3 {
-	font-size: 24px;
-	font-weight: 700;
+	font-size: 1.7em; /*24px*/
 }
 
 p {
@@ -30,49 +33,46 @@ p {
 }
 
 /* ------------------------HEADER------------------------ */
-/*header div img {
-	float: left;
+header div img {
 	display: inline;
-	padding: 5px 0;
-}*/
-div .two.columns {
-	padding: 0 0 0;
+	padding: .7rem 0 0;
 }
 
 div .eight.columns {
 	padding: 2rem 0 0;
+	margin: 0 2rem;
 }
 
 header div nav {
-	padding: 1rem 0 0;
+	padding: 1.5rem 0 0;
 }
 
 header div nav ul li{
 	float: center;
 	display: inline;
 	list-style: none;
-	padding: 0 1rem;
+	padding: 0 2rem;
 }
 
-/*header div:nth-of-type(3) {
-	margin: 2% 0;
-	float: right;
+header div:nth-of-type(3) {
+	margin: 2.5rem 0 1rem;
 	display: inline;
-}*/
+}
 
 #header {
 	background-image: url('../images/business-coffee-mbp.jpg');
 	-moz-background-size: cover;
   -webkit-background-size: cover;
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center center;
 	margin: 0;
-	min-height: 1050px;
 }
 
 #navigation {
 	background-color: #ffffff;
-	padding: .5rem 0;
+	padding: 1rem 0;
+	margin: 0;
 	width: 100%;
 	-moz-box-shadow: 0 1px 5px rgba(0,0,0,.75);
 	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,.75);
@@ -80,7 +80,7 @@ header div nav ul li{
 }
 
 #marketing {
-	padding: 35% 0;
+	padding: 30rem 0;
 }
 
 /* --------------------SIGN-UP BUTTON------------------------ */
@@ -315,51 +315,51 @@ textarea:focus {
 /* --------STYLES FOR TEXT: HEADER AND BODY------------------ */
 #header-navlinks {
 	color: #404040;
-	font-size: 15px;
+	font-size: 1em; /*15px*/
 	font-weight: 700;
 }
 
 #header-tagline {
-	font-size: 30px;
+	font-size: 2em;
 	font-weight: 400;
 }
 
 #features-descriptions {
-	font-size: 16px;
+	font-size: 1.2em; /*16px*/
 	font-weight: 400;
 }
 
 #howto-steps {
-	font-size: 20px;
+	font-size: 1.4em; /*20px*/
 	font-weight: 400;
 }
 
 #reviews-body {
-	font-size: 18px;
+	font-size: 1.3em; /*18px*/
 	font-weight: 400;
 }
 
 #signup-tagline {
-	font-size: 20px;
+	font-size: 1.4em; /*20px*/
 	font-weight: 400;
 	margin-bottom: 0;
 }
 
 #footer-navlinks {
 	color: #fff;
-	font-size: 14px;
+	font-size: 0.9em; /*14px*/
 	font-weight: 700;
 }
 
 #footer-policies-links {
 	color: #fff;
-	font-size: 18px;
+	font-size: 1.3em; /*18px*/
 	font-weight: 700;
 }
 
 #footer-copyright {
 	color: #e9e5e5;
-	font-size: 16px;
+	font-size: 1.2em; /*16px*/
 	font-weight: 400;
 }
 
@@ -380,5 +380,5 @@ a {
 #header-navlinks a:hover,
 #footer-navlinks a:hover {
 	border-bottom: solid 2px #55bbc4;
-	padding-bottom: 5px;
+	padding-bottom: 1rem;
 }
