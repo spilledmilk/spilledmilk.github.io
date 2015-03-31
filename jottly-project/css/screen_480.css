@@ -1,0 +1,128 @@
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+/* Header
+=========================================================== */
+	header div .seven.columns.offset-by-one.column {
+		display: block;
+		margin: 2rem 0 0;
+		padding: 1rem 0;
+	}
+
+	header div .two.columns.offset-by-one.column {
+		display: block;
+		margin-left: 0;
+		padding-bottom: 2rem;
+	}
+
+	header div img {
+		display: block;
+		width: 120px;
+		height: auto !important;
+	}
+
+	header div nav ul li {
+		display: block;
+		padding: .5rem 0;
+		margin: 0;
+	}
+
+	#marketing h1 {
+		font-size: 2.3em;
+	}
+
+
+@media only screen and (min-width:380px) {
+	#marketing h1 {
+		font-size: 2.8em;
+	}
+
+	#marketing p {
+		font-size: 1.5em;
+	}
+}
+
+	/* How It Works
+=========================================================== */
+	#howitworks .three.columns.offset-by-one.column {
+		margin: 1.5rem 0;
+	}
+
+	p.two,
+	p.three {
+		margin: 1.5rem 0;
+	}
+
+/* Footer
+=========================================================== */
+	#footer .seven.columns {
+		display: block;
+		padding: 0;
+	}
+
+	#footer .five.columns {
+		display: block;
+	}
+
+	#footer-navlinks ul li {
+		display: block;
+		padding: .5rem 0;
+	}
+
+	#footer-policies-links {
+		color: #fff;
+		font-size: 1.1em;
+		font-weight: 700;
+		border-top: 1px solid #ffffff;
+	}
+
+	#footer-policies-links ul li {
+		display: block;
+		padding: 1rem 0;
+		margin: 0;
+	}
+
+	#footer-copyright {
+		color: #e9e5e5;
+		font-size: 1em;
+		font-weight: 400;
+	}
+
+/* Styles For Text
+=========================================================== */
+	#header nav a {
+		font-size: 2em;
+	}
+
+	#howitworks p {
+		font-size: 1.3em;
+		font-weight: 400;
+	}
+
+	#features p,
+	#testimonials p {
+		font-size: 1.2em;
+		font-weight: 400;
+	}
+
+@media only screen and (min-widtH:550px) {
+	#header nav a {
+		font-size: 2em;
+	}
+}
+
+/* Styles For Links
+=========================================================== */
+	#footer nav a {
+		color: #ffffff;
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+
+	#header nav a:hover,
+	#footer nav a:hover {
+		color: #55bbc4;
+		border: none;
+	}
+
+
+}

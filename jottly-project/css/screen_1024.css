@@ -1,0 +1,87 @@
+@media only screen and (min-width:900px) and (max-width: 1024px) {
+
+/* Header
+=========================================================== */
+	header div .two.columns.offset-by-one.column {
+		margin-left: 5rem;
+	}
+
+	header div nav {
+		display: inline;
+		padding: 0 1rem;
+		margin: 0;
+	}
+
+	header div nav ul li {
+		padding: 0 1rem;
+	}
+
+@media only screen and (min-width:950px) {
+	header div nav ul li {
+		padding: 0 .5rem;
+	}
+
+	/* Button
+	=========================================================== */
+	#signup-nav span {
+		padding: 10px 20px;
+		font-size: 14px;
+	}
+}
+
+
+/* How It Works
+=========================================================== */
+	#howitworks p.two {
+		padding: 3.5rem 0;
+	}
+
+
+	#howitworks p.three {
+		padding: 2.5rem 0;
+	}
+
+@media only screen and (min-width:950px) {
+	#howitworks p.two {
+		padding: 1.5rem 0;
+	}
+}
+
+/* Testimonials
+=========================================================== */
+	#testimonials img {
+		width: 12rem;
+		height: auto;
+	}
+
+	#testimonials div.image {
+		margin: 4rem 0;
+	}
+
+@media only screen and (min-width:950px) {
+	#testimonials img {
+		width: 11.5rem;
+		height: auto;
+	}
+}
+
+/* Footer
+=========================================================== */
+	#footer-navlinks ul li {
+		padding: .5rem;
+	}
+
+	#footer-policies-links {
+		color: #fff;
+		font-size: 1.2em; /*18px*/
+		font-weight: 700;
+	}
+
+	#footer-copyright {
+		color: #e9e5e5;
+		font-size: 1.1em; /*16px*/
+		font-weight: 400;
+	}
+
+
+}

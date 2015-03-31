@@ -1,3 +1,4 @@
+/*@media (min-width:1172px) {*/
 
 /* Global
 =========================================================== */
@@ -10,9 +11,6 @@ body {
 
 h1, h2, h3, h4 {
 	margin: 0;
-}
-
-h1, h2, h3 {
 	font-weight: 700;
 }
 
@@ -37,16 +35,26 @@ p {
 =========================================================== */
 header div img {
 	display: inline;
-	padding: .7rem 0 0;
 }
 
-div .eight.columns {
-	padding: 2rem 0 0;
-	margin: 0 2rem;
+header div .seven.columns.offset-by-one.column {
+	padding: 3.5rem 0;
+}
+
+header div .two.columns.offset-by-one.column {
+	display: inline;
+	padding: 2.5rem 0 0;
+	margin-left: 7.5rem;
 }
 
 header div nav {
-	padding: 1.5rem 0 0;
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+header div nav ul {
+	display: inline;
 }
 
 header div nav ul li{
@@ -54,11 +62,6 @@ header div nav ul li{
 	display: inline;
 	list-style: none;
 	padding: 0 2rem;
-}
-
-header div:nth-of-type(3) {
-	margin: 2.5rem 0 1rem;
-	display: inline;
 }
 
 #header {
@@ -95,7 +98,8 @@ header div:nth-of-type(3) {
 }
 
 #signup-nav span {
-	padding: 12px 25px;
+	display: inline;
+	padding: 10px 20px;
 	font-size: 16px;
 }
 
@@ -211,27 +215,32 @@ input[type="submit"]:active,
 =========================================================== */
 #howitworks {
 	background-color: #ffffff;
-	padding: 2rem;
+	padding: 2.5rem;
 }
 
-#howitworks div {
-	height: 100%;
+#howitworks h2 {
+	padding-bottom: 2.5rem;
 }
 
-#stepone,
-#steptwo,
-#stepthree {
+#howitworks div.three.columns {
+	text-align: center;
+	height: 210px;
+	padding: 0 .5rem;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-#howto-steps.one {
-	padding: 10rem 0;
+#howitworks .one {
+	padding: 52.5px 0;
 }
 
-#howto-steps.two,
-#howto-steps.three {
-	padding: 7.5rem 0;
+#howitworks .two {
+	padding: 42px 0;
+}
+
+#howitworks .three {
+	padding: 31.5px 0;
 }
 
 /* Testimonials
@@ -253,7 +262,8 @@ input[type="submit"]:active,
 	padding: 1rem 0 5rem;
 }
 
-/* ----------------------SIGN UP CTA------------------------ */
+/* Sign-Up CTA
+=========================================================== */
 #signup {
 	background-color: #ffffff;
 	padding: 2rem 0;
@@ -265,6 +275,7 @@ input[type="submit"]:active,
 
 #signup p {
 	padding: 0 0 1rem;
+	font-size: 1.3em;
 }
 
 #signup div.row {
@@ -321,43 +332,24 @@ textarea:focus {
 
 /* Styles For Text
 =========================================================== */
-#header-navlinks {
+#features p,
+#howitworks p,
+#testimonials p {
+	font-size: 1.3em; /*18px*/
+	font-weight: 400;
+}
+
+#header nav a {
 	color: #404040;
 	font-size: 1em; /*15px*/
 	font-weight: 700;
 }
 
-#header-tagline {
+#marketing p {
 	font-size: 2em;
 	font-weight: 400;
 }
 
-#features-descriptions {
-	font-size: 1.2em; /*16px*/
-	font-weight: 400;
-}
-
-#howto-steps {
-	font-size: 1.4em; /*20px*/
-	font-weight: 400;
-}
-
-#reviews-body {
-	font-size: 1.3em; /*18px*/
-	font-weight: 400;
-}
-
-#signup-tagline {
-	font-size: 1.4em; /*20px*/
-	font-weight: 400;
-	margin-bottom: 0;
-}
-
-#footer-navlinks {
-	color: #fff;
-	font-size: 0.9em; /*14px*/
-	font-weight: 700;
-}
 
 #footer-policies-links {
 	color: #fff;
@@ -377,17 +369,20 @@ a {
 	text-decoration: none;
 }
 
-#header-navlinks a {
+#header nav a {
 	color: #404040;
 }
 
-#footer-navlinks a,
-#footer-policies-links a {
+#footer nav a {
 	color: #ffffff;
+	font-size: .9em;
+	font-weight: 700;
 }
 
-#header-navlinks a:hover,
-#footer-navlinks a:hover {
+#header nav a:hover,
+#footer nav a:hover {
 	border-bottom: solid 2px #55bbc4;
 	padding-bottom: 1rem;
 }
+
+/*}*/
