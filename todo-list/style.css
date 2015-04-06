@@ -41,8 +41,8 @@ input[type="text"] {
   background: -ms-linear-gradient(top, #000000 0%, #636363 99%);
   background: linear-gradient(to bottom, #000000 0%, #636363 99%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#636363',GradientType=0); }
-input:focus {
-  outline-width: 0; }
+  input[type="text"]:focus {
+    outline-width: 0; }
 
 ::-webkit-input-placeholder,
 ::-moz-placeholder,
