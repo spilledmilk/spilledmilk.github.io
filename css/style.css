@@ -39,7 +39,7 @@ a {
 a:hover {
 	text-decoration: none;
 	color: #00d3de;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 1.5px 1.5px 1.5px #fff;
 }
 
 /*This is just while it's under construction*/
