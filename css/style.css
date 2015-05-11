@@ -33,13 +33,13 @@ p {
 
 a {
 	text-decoration: none;
-	color: #de0000;
+	color: #fff;
 }
 
 a:hover {
 	text-decoration: none;
 	color: #fff;
-	text-shadow: 1px 1px 1px #de0000;
+	text-shadow: 1px 1px 1px #00d3de;
 }
 
 /*This is just while it's under construction*/
