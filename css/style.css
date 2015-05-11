@@ -38,8 +38,8 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #fff;
-	text-shadow: 1px 1px 1px #00d3de;
+	color: #00d3de;
+	text-shadow: 1px 1px 1px #fff;
 }
 
 /*This is just while it's under construction*/
