@@ -1,7 +1,3 @@
-/*landing page*/
-@import url(http://fonts.googleapis.com/css?family=Fredoka+One);
-	/*'Fredoka One', cursive;*/
-
 /*sans-serif*/
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
 	/*'Quicksand', sans-serif;*/
@@ -9,6 +5,8 @@
 /*serif*/
 @import url(http://fonts.googleapis.com/css?family=Vidaloka);
 	/*'Vidaloka', serif;*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700);
+/*'Roboto Slab', serif*/
 
 /*accent*/
 @import url(http://fonts.googleapis.com/css?family=Pompiere);

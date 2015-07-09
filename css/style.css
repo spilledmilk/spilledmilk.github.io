@@ -1,58 +1,64 @@
 body {
-	background-color: #ffe261;
-	color: #000;
-	font-family: 'Quicksand', sans-serif;
-	margin: 0;
-}
+  background-color: #fff;
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  margin: 0; }
 
 .wrapper {
-	min-height: 100%;
-	height: auto !important;
-	margin: auto 0;
-}
-
+  min-height: 100%;
+  height: auto !important;
+  margin: auto 0; }
 
 #cover {
-	margin-top: 5em;
-	vertical-align: center;
-	text-align: center;
-	padding: 0;
-}
+  margin-top: 5em;
+  vertical-align: center;
+  text-align: center;
+  padding: 0; }
 
-#img-circle {
-	background-color: #fff;
-	width: 230px;
-	height: 230px;
-	border-radius: 50%;
-	border: solid 0.5em #000;
-}
+#img-border {
+  width: 200px;
+  height: 200px;
+  border-radius: 2%;
+  border: solid 0.5em #000;
+  margin: 0;
+  padding: 0; }
+
+tr {
+  font-size: 1.5em; }
+  tr a {
+    font-size: 0.8em; }
+
+td {
+  padding: 0 0.5em;
+  text-align: center; }
 
 p {
-	font-size: 1.5em;
-}
+  font-size: 1.5em; }
 
 a {
-	text-decoration: none;
-	color: #fff;
-}
+  text-decoration: none;
+  color: #555; }
+  a:hover {
+    background-color: #ffe261;
+    text-decoration: none;
+    text-shadow: 1.5px 1.5px 1.5px #fff; }
 
-a:hover {
-	text-decoration: none;
-	color: #00d3de;
-	text-shadow: 1.5px 1.5px 1.5px #fff;
-}
-
-/*This is just while it's under construction*/
+/*This is just while it's under construction */
 .cover-hi {
-	font-family: 'Pacifico', cursive;
-	font-size: 6em;
-	color: #00d3de;
-	text-align: center;
-	margin: 0;
-}
+  font-family: "Pacifico", cursive;
+  font-size: 7em;
+  line-height: 1.2em;
+  color: #00d3de;
+  text-align: center;
+  margin: 0; }
 
 .cover-const {
-	font-size: 2em;
-	text-align: center;
-	margin: 0;
-}
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0; }
+
+/*signature */
+.signature {
+  font-family: "Pacifico", cursive; }
+
+/*# sourceMappingURL=style.css.map */
