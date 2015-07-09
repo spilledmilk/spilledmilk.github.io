@@ -39,7 +39,7 @@ a {
   text-decoration: none;
   color: #555; }
   a:hover {
-    background-color: #ffe261;
+    background-color: #FFED61;
     text-decoration: none;
     text-shadow: 1.5px 1.5px 1.5px #fff; }
 
@@ -48,7 +48,7 @@ a {
   font-family: "Pacifico", cursive;
   font-size: 7em;
   line-height: 1.4em;
-  color: #00d3de;
+  color: #FF4A61;
   text-align: center;
   margin: 0; }
 
