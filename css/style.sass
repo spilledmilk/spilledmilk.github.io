@@ -31,9 +31,19 @@ body
 	margin: 0
 	padding: 0
 
+#my-links
+	tr
+		td
+			font-size: .9em
+			a
+				font-size: 1em
+			&:nth-of-type(odd)
+				text-align: right
+			&:nth-of-type(even)
+				text-align: left
+
 tr
 	font-size: 1.5em
-
 	a
 		font-size: 0.8em
 
@@ -70,4 +80,3 @@ a
 /*signature*/
 .signature
 	font-family: 'Pacifico', cursive
-

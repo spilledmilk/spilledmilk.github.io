@@ -1,21 +1,11 @@
 /*sans-serif*/
-@import url(http://fonts.googleapis.com/css?family=Quicksand);
-	/*'Quicksand', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+	/*'Montserrat', sans-serif;*/
 
 /*serif*/
-@import url(http://fonts.googleapis.com/css?family=Vidaloka);
-	/*'Vidaloka', serif;*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700);
 /*'Roboto Slab', serif*/
-
-/*accent*/
-@import url(http://fonts.googleapis.com/css?family=Pompiere);
-	/*'Pompiere', cursive;*/
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-	/*'Open Sans Condensed', sans-serif;*/
 
 /*cursive*/
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 	/*'Pacifico', cursive;*/
-@import url(http://fonts.googleapis.com/css?family=Grand+Hotel);
-	/*'Grand Hotel', cursive;*/

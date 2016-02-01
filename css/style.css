@@ -23,6 +23,15 @@ body {
   margin: 0;
   padding: 0; }
 
+#my-links tr td {
+  font-size: 0.9em; }
+  #my-links tr td a {
+    font-size: 1em; }
+  #my-links tr td:nth-of-type(odd) {
+    text-align: right; }
+  #my-links tr td:nth-of-type(even) {
+    text-align: left; }
+
 tr {
   font-size: 1.5em; }
   tr a {
