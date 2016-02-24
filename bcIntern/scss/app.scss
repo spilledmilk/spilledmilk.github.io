@@ -1,0 +1,241 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-close-button;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-flex-video;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-menu;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+@import 'foundation';
+@include foundation-grid;
+@include foundation-flex-grid;
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+$accent: #eedb57;
+$black: #000;
+$blue: #175aab;
+$darkblue: #15539e;
+$darkgrey: #bbb;
+$lightblue: #b6deff;
+$lightgrey: #eee;
+$tan: #f5efe6;
+$white: #fff;
+
+$shadow: rgba(0, 0, 0, .26);
+
+body {
+  // background-image: url('/assets/one_ina_mil.png');
+  background-color: $tan;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+p {
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Pacifico', cursive;
+}
+
+a {
+  transition: all .3s ease-out;
+
+  &:hover {
+    background-color: $lightblue;
+    color: $black;
+    transition: all .3s ease-out;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.bowtie {
+  height: auto;
+  margin: 0 auto;
+  width: 25rem;
+  z-index: 99;
+}
+
+.badge {
+  background-color: transparent;
+  border-radius: 0;
+  display: inline;
+  height: auto;
+  margin-left: 17rem;
+  margin-top: 5rem;
+  width: 20rem;
+  z-index: 99;
+}
+
+.circle {
+  background-color: $white;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 $darkgrey;
+  height: 3rem;
+  margin: 2rem auto;
+  width: 3rem;
+  z-index: -1;
+}
+
+.shirt {
+  // background-color: $white;
+  background-image: url('../img/new_year.png');
+  // border-bottom-left-radius: 1rem;
+  // border-bottom-right-radius: 1rem;
+  // border-top-left-radius: 45%;
+  // border-top-right-radius: 45%;
+  border-radius: 1rem;
+  box-shadow: 0 3px 1px 0 $darkgrey;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: -22rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.greeting {
+  padding-top: 3rem;
+}
+
+.spacing {
+  margin-left: 5rem;
+  margin-top: 10rem;
+}
+
+.footer {
+  background-color: $blue;
+  bottom: 0;
+  color: $lightblue;
+  height: auto;
+  left: 0;
+  padding-top: 1rem;
+  position: fixed;
+  width: 100%;
+
+  .shadow {
+    background-color: $darkblue;
+    bottom: 0;
+    height: 1rem;
+    left: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  h4 {
+    color: $white;
+  }
+
+  span {
+    color: $white;
+    font-size: 1.1rem;
+    // font-weight: 700;
+  }
+
+  a {
+    color: $white;
+    font-weight: 700;
+    transition: all .3s ease-out;
+
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .bowtie {
+    width: 15rem;
+  }
+
+  .badge {
+    margin-left: 8rem;
+    margin-top: 3rem;
+    width: 12rem;
+  }
+
+  .circle {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .top {
+    margin-top: -2rem;
+  }
+
+  .shirt {
+    background-color: $white;
+    // border-top-left-radius: 25%;
+    // border-top-right-radius: 25%;
+    margin-top: -13rem;
+  }
+
+  .greeting {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .bowtie {
+    width: 18rem;
+  }
+
+  .badge {
+    margin-left: 10rem;
+  }
+
+  .circle {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .shirt {
+    margin-top: -19rem;
+  }
+}
