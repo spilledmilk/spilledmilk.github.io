@@ -14,7 +14,7 @@ $(document).foundation();
 // var div = document.getElementsByClassName( 'letter' );
 // div.insertAdjacentHTML( 'beforeBegin', 'my text must be added here' );
 
-$(document).ready(() => {
+$(document).ready(function() {
   $(".buildings").delay(700).fadeIn(700);
   $(".trees").delay(600).fadeIn(600);
   $(".bushes").delay(500).fadeIn(500);
