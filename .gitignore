@@ -1,5 +1,4 @@
 .DS_Store
-acuity/
-bcIntern/
-highrise/
-
+node_modules/
+no-upload/
+dist/

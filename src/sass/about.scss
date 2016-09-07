@@ -1,0 +1,57 @@
+//- imports
+@import 'variables';
+
+.writing,
+.writing-media {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  resize: vertical;
+}
+
+.writing {
+  color: $white;
+}
+
+.writing-media {
+  color: $black;
+  display: none;
+}
+
+@media only screen and (max-width: 320px) {
+  #right {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  .justify {
+    text-align: left !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #right {
+    justify-content: flex-start !important;
+    margin-top: 4rem;
+  }
+
+  .writing-media {
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #right {
+    background-image: none;
+  }
+
+  .writing-media {
+    display: block;
+  }
+
+  .writing {
+    display: none;
+  }
+}

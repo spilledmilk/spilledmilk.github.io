@@ -1,0 +1,32 @@
+//- colors
+$black: #000;
+$blue: #003365;
+$dark-grey: #333;
+$gold: #daa93d;
+$grey: #808080;
+$light-grey: #d8d8d8;
+$pink: #c2507d;
+$white: #fff;
+$yellow: #f8e71c;
+
+$hover-blue: rgba($blue, .3);
+$hover-opacity: rgba($black, .2);
+$hover-pink: rgba($pink, .3);
+$hover-white: rgba($white, .5);
+$shadow: rgba($black, .5);
+
+//- fonts
+$font-body: 'Inconsolata', 'Courier New', monospace;
+$font-accent: 'Poppins', 'Helvetica Neue', Helvetica, sans-serif;
+
+//- font sizes
+$font-size-x-small: 12px;
+$font-size-small: 14px;
+$font-size-regular: 16px;
+$font-size-large: 24px;
+$font-size-x-large: 32px;
+$font-size-xx-large: 48px;
+$font-size-3x-large: 64px;
+$font-size-4x-large: 96px;
+
+$font-icon-size-regular: 18px;

@@ -1,0 +1,39 @@
+body {
+  //- make images responsive
+  img {
+    width: 100%;
+  }
+
+  //- logo
+  .navbar-brand {
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+    img {
+      display: none;
+      height: 4rem;
+      width: 4rem;
+      z-index: 99;
+    }
+  }
+
+  //- landing right background
+  .landing-selfie {
+    background-image: url('../img/landing_2.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    .navbar-brand {
+      img {
+        display: block;
+      }
+    }
+  }
+}
