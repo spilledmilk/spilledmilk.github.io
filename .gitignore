@@ -2,3 +2,4 @@
 node_modules/
 no-upload/
 dist/
+src/pages/_*
