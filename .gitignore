@@ -2,4 +2,4 @@
 node_modules/
 no-upload/
 dist/
-src/pages/_*
+src/pages/supplemental/
