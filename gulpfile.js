@@ -11,7 +11,7 @@ var site = require('./site.json');
       through        = require('through2');
 
   var settings = {
-    url: 'http://spilledmilk.github.io',
+    url: 'http://spilledmilk.github.io/',
     src: path.join('dist', '/**/*'),
     ghPages: {
       cacheDir: path.join(os.tmpdir(), 'spilledmilk-site'),
@@ -102,7 +102,7 @@ var site = require('./site.json');
   //---- DEPLOY ----//
   gulp.task('deploy', function() {
     return gulp.src('dist/**/*')
-               .pipe(plugins.ghPages());
+               .pipe(plugins.ghPages(settings.ghPages));
   });
 
   //---- WATCH ----//
