@@ -102,7 +102,7 @@ var site = require('./site.json');
   //---- DEPLOY ----//
   gulp.task('deploy', function() {
     return gulp.src('dist/**/*')
-               .pipe(plugins.ghPages(settings.ghPages));
+               .pipe(plugins.ghPages());
   });
 
   //---- WATCH ----//
