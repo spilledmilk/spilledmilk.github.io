@@ -14,8 +14,7 @@ var site = require('./site.json');
     url: 'http://spilledmilk.github.io',
     src: path.join('dist', '/**/*'),
     ghPages: {
-      cacheDir: path.join(os.tmpdir(), 'spilledmilk-site'),
-      branch: "master"
+      cacheDir: path.join(os.tmpdir(), 'spilledmilk-site')
     }
   };
 
