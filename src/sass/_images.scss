@@ -26,6 +26,21 @@ body {
     top: 0;
     right: 0;
   }
+
+  //- page under construction
+  .progress {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    display: flex;
+    height: auto;
+    justify-content: center;
+
+    > img {
+      align-self: center;
+      width: auto;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
