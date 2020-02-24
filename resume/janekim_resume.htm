@@ -1,0 +1,2013 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:4000/ -->
+<html lang="en" class="wf-lato-n3-active wf-lato-n4-active wf-lato-n7-active wf-active">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jane Kim</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+    @font-face {
+      font-family: 'icomoon';
+      src: url('fonts/icomoon.eot?z1lat9');
+      src: url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+        url('fonts/icomoon.woff?z1lat9') format('woff'),
+        url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    [class^="icon-"],
+    [class*=" icon-"] {
+      /* use !important to prevent issues with browser extensions that change fonts */
+      font-family: 'icomoon' !important;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+
+      /* Better Font Rendering =========== */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .icon-gitlab .path1:before {
+      content: "\e906";
+      color: rgb(252, 109, 38);
+    }
+
+    .icon-gitlab .path2:before {
+      content: "\e907";
+      margin-left: -1em;
+      color: rgb(226, 67, 41);
+    }
+
+    .icon-gitlab .path3:before {
+      content: "\e908";
+      margin-left: -1em;
+      color: rgb(252, 109, 38);
+    }
+
+    .icon-gitlab .path4:before {
+      content: "\e909";
+      margin-left: -1em;
+      color: rgb(252, 163, 38);
+    }
+
+    .icon-gitlab .path5:before {
+      content: "\e90a";
+      margin-left: -1em;
+      color: rgb(226, 67, 41);
+    }
+
+    .icon-gitlab .path6:before {
+      content: "\e90b";
+      margin-left: -1em;
+      color: rgb(252, 109, 38);
+    }
+
+    .icon-gitlab .path7:before {
+      content: "\e90c";
+      margin-left: -1em;
+      color: rgb(252, 163, 38);
+    }
+
+    .icon-gitlab .path8:before {
+      content: "\e90d";
+      margin-left: -1em;
+      color: rgb(226, 67, 41);
+    }
+
+    .icon-meetup .path1:before {
+      content: "\e901";
+      color: rgb(255, 255, 255);
+    }
+
+    .icon-meetup .path2:before {
+      content: "\e902";
+      margin-left: -1.5em;
+      color: rgb(240, 1, 1);
+    }
+
+    .icon-meetup .path3:before {
+      content: "\e903";
+      margin-left: -1.5em;
+      color: rgb(3, 3, 3);
+    }
+
+    .icon-blogger:before {
+      content: "\e900";
+    }
+
+    .icon-exercism:before {
+      content: "\e601";
+    }
+
+    .icon-telegram:before {
+      content: "\e904";
+    }
+
+    .icon-flickr:before {
+      content: "\f16e";
+    }
+
+    .icon-medium:before {
+      content: "\f23a";
+    }
+
+    .icon-heart:before {
+      content: "\f004";
+    }
+
+    .icon-book:before {
+      content: "\f02d";
+    }
+
+    .icon-linkedin:before {
+      content: "\f08c";
+    }
+
+    .icon-twitter:before {
+      content: "\f099";
+    }
+
+    .icon-github:before {
+      content: "\f09b";
+    }
+
+    .icon-link:before {
+      content: "\f0c1";
+    }
+
+    .icon-bars:before {
+      content: "\f0c9";
+    }
+
+    .icon-pinterest:before {
+      content: "\f0d2";
+    }
+
+    .icon-googleplus:before {
+      content: "\f0d5";
+    }
+
+    .icon-circle:before {
+      content: "\f111";
+    }
+
+    .icon-code:before {
+      content: "\f121";
+    }
+
+    .icon-youtube:before {
+      content: "\f167";
+    }
+
+    .icon-stackoverflow:before {
+      content: "\f16c";
+    }
+
+    .icon-bitbucket:before {
+      content: "\f171";
+    }
+
+    .icon-tumblr:before {
+      content: "\f173";
+    }
+
+    .icon-dribbble:before {
+      content: "\f17d";
+    }
+
+    .icon-skype:before {
+      content: "\f17e";
+    }
+
+    .icon-foursquare:before {
+      content: "\f180";
+    }
+
+    .icon-gittip:before {
+      content: "\f184";
+    }
+
+    .icon-gratipay:before {
+      content: "\f184";
+    }
+
+    .icon-stackexchange:before {
+      content: "\f18d";
+    }
+
+    .icon-vimeo:before {
+      content: "\f194";
+    }
+
+    .icon-graduation-cap:before {
+      content: "\f19d";
+    }
+
+    .icon-language:before {
+      content: "\f1ab";
+    }
+
+    .icon-child:before {
+      content: "\f1ae";
+    }
+
+    .icon-behance:before {
+      content: "\f1b5";
+    }
+
+    .icon-spotify:before {
+      content: "\f1bc";
+    }
+
+    .icon-soundcloud:before {
+      content: "\f1be";
+    }
+
+    .icon-codepen:before {
+      content: "\f1cb";
+    }
+
+    .icon-hackernews:before {
+      content: "\f1d4";
+    }
+
+    .icon-lastfm:before {
+      content: "\f202";
+    }
+
+    .icon-angellist:before {
+      content: "\f209";
+    }
+
+    .icon-facebook:before {
+      content: "\f230";
+    }
+
+    .icon-instagram:before {
+      content: "\e905";
+    }
+
+    .icon-trophy:before {
+      content: "\e605";
+    }
+
+    .icon-office:before {
+      content: "\e606";
+    }
+
+    .icon-clock:before {
+      content: "\e60a";
+    }
+
+    .icon-reddit:before {
+      content: "\e609";
+    }
+
+    .icon-profile:before {
+      content: "\e600";
+    }
+
+    .icon-tools:before {
+      content: "\e034";
+    }
+
+    .icon-location:before {
+      content: "\e602";
+    }
+
+    .icon-mail:before {
+      content: "\e603";
+    }
+
+    .icon-phone:before {
+      content: "\e03f";
+    }
+
+    .icon-newspaper:before {
+      content: "\e607";
+    }
+
+    .icon-chevron-down:before {
+      content: "\e60c";
+    }
+
+    .icon-chevron-up:before {
+      content: "\e60d";
+    }
+
+    .icon-dots-three-horizontal:before {
+      content: "\e60b";
+    }
+
+    .icon-thumbs-up:before {
+      content: "\e604";
+    }
+
+    .icon-board:before {
+      content: "\e608";
+    }
+
+    .relative {
+      position: relative;
+    }
+
+    .clear-margin {
+      margin: 0;
+    }
+
+    .space-top {
+      margin-top: 10px;
+    }
+
+    .space-right {
+      margin-right: 10px;
+    }
+
+    .space-bottom {
+      margin-bottom: 10px;
+    }
+
+    .mr-5 {
+      margin-right: 5px;
+    }
+
+    .mr-10 {
+      margin-right: 10px;
+    }
+
+    .ml-5 {
+      margin-left: 5px;
+    }
+
+    .labels {
+      line-height: 2;
+    }
+
+    .label-keyword {
+      display: inline-block;
+      background: #7eb0db;
+      color: white;
+      font-size: 0.9em;
+      padding: 5px;
+      border: 1px solid #357ebd;
+      margin-right: 5px;
+    }
+
+    .label-keyword:last-child {
+      margin-right: 0;
+    }
+
+    .link-disguise {
+      color: inherit;
+    }
+
+    .link-disguise:hover {
+      color: inherit;
+    }
+
+    .clear-margin {
+      margin: 0;
+    }
+
+    @media (max-width: 992px) {
+      .clear-margin-sm {
+        margin-bottom: 0;
+      }
+    }
+
+    .fs-lg {
+      font-size: 1.33333333em;
+      line-height: 0.75em;
+      vertical-align: -15%;
+    }
+
+    .fs-2x {
+      font-size: 2em;
+    }
+
+    .fs-3x {
+      font-size: 3em;
+    }
+
+    .fs-4x {
+      font-size: 4em;
+    }
+
+    .btn-circle-sm {
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      border-radius: 50%;
+      text-align: center;
+      padding: 0;
+      outline: none !important;
+    }
+
+    /* the version when the icon file is last updated */
+    @font-face {
+      font-family: 'jst-elegant';
+      src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+      src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    [class^="icon-"],
+    [class*=" icon-"] {
+      /* use !important to prevent issues with browser extensions that change fonts */
+      font-family: 'jst-elegant' !important;
+    }
+
+    body {
+      font-family: 'Lato';
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    .main {
+      padding: 5px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #e6e6e6;
+      border-radius: 3px;
+      min-height: 300px;
+      padding: 10px 0;
+    }
+
+    .card-nested {
+      min-height: 0;
+      border-width: 1px 0 0 0;
+    }
+
+    .card-nested:before,
+    .card-nested:after {
+      content: " ";
+      display: table;
+    }
+
+    .card-nested:after {
+      clear: both;
+    }
+
+    @media (max-width: 480px) {
+      .card-nested {
+        padding: 5px 0;
+      }
+    }
+
+    .background-card {
+      padding: 10px 20px;
+    }
+
+    .card-wrapper {
+      padding: 5px;
+    }
+
+    @media (max-width: 992px) {
+      .card-wrapper {
+        float: none !important;
+      }
+    }
+
+    .background-details .detail {
+      display: table;
+    }
+
+    .background-details .detail .icon {
+      min-width: 45px;
+      max-width: 45px;
+      text-align: center;
+    }
+
+    .background-details .detail .info {
+      width: 100%;
+    }
+
+    .background-details .detail .title,
+    .background-details .detail .icon {
+      color: #707070;
+    }
+
+    .background-details .detail .mobile-title {
+      display: none;
+    }
+
+    @media (max-width: 480px) {
+      .background-details .detail .mobile-title {
+        display: inline-block;
+        margin-left: 5px;
+        font-weight: bold;
+        text-transform: uppercase;
+        vertical-align: middle;
+      }
+    }
+
+    .background-details .detail .icon,
+    .background-details .detail .info {
+      display: table-cell;
+      padding: 0 10px;
+    }
+
+    @media (max-width: 480px) {
+      .background-details .detail {
+        display: block;
+      }
+
+      .background-details .detail .icon {
+        max-width: inherit;
+        min-width: inherit;
+        text-align: left;
+      }
+
+      .background-details .detail .icon,
+      .background-details .detail .info {
+        display: block;
+        padding: 10px 0;
+      }
+
+      .background-details .detail .title {
+        display: none;
+      }
+    }
+
+    .info .content.has-sidebar {
+      width: 80%;
+      box-sizing: border-box;
+      float: left;
+      padding: 0 10px;
+      border-right: 1px solid #cdcdcd;
+    }
+
+    @media (max-width: 992px) {
+      .info .content.has-sidebar {
+        width: 100%;
+        border-right: 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .info .content.has-sidebar {
+        padding: 0 2px;
+      }
+    }
+
+    .info .sidebar {
+      margin-left: 80%;
+      box-sizing: border-box;
+      padding: 10px;
+    }
+
+    @media (max-width: 480px) {
+      ul {
+        padding-left: 25px;
+      }
+    }
+
+    .current-event {
+      font-size: 8px;
+      color: #5ACE24;
+      position: absolute;
+      right: 100%;
+      top: 4px;
+      left: -10px;
+    }
+
+    .mop-wrapper>p:last-child {
+      margin: 0;
+    }
+
+    /*
+    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
+*/
+    .floating-nav-trigger {
+      width: 50px;
+      height: 50px;
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+      -webkit-transition: background-color 0.5s ease;
+      -o-transition: background-color 0.5s ease;
+      transition: background-color 0.5s ease;
+      display: block;
+      border-radius: 50%;
+      text-align: center;
+      background-color: white;
+      font-size: 1.5em;
+      color: #357ebd;
+      z-index: 100;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      text-decoration: none !important;
+    }
+
+    .floating-nav-trigger>[class^="icon-"],
+    .floating-nav-trigger [class*=" icon-"],
+    .floating-nav-trigger>.close-icon {
+      line-height: 50px;
+    }
+
+    .floating-nav-trigger .close-icon {
+      display: none;
+    }
+
+    .floating-nav-trigger:hover {
+      color: #1f496e;
+      background-color: #e6e6e6;
+    }
+
+    .floating-nav-trigger.is-open {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    .floating-nav-trigger.is-open .close-icon {
+      display: inherit;
+    }
+
+    .floating-nav-trigger.is-open .icon-bars {
+      display: none;
+    }
+
+    .floating-nav-trigger.is-open:hover {
+      background-color: white;
+    }
+
+    .floating-nav {
+      -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+      -o-transform: scale(0);
+      transform: scale(0);
+      -webkit-transform-origin: 100% 100%;
+      -moz-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+      transform-origin: 100% 100%;
+      -webkit-transition: transform 0.3s, visibility 0s 0.3s;
+      -o-transition: transform 0.3s, visibility 0s 0.3s;
+      transition: transform 0.3s, visibility 0s 0.3s;
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+      position: fixed;
+      z-index: 50;
+      right: 10px;
+      bottom: 10px;
+      background-color: white;
+      width: 90%;
+      max-width: 400px;
+      visibility: hidden;
+      overflow: hidden;
+    }
+
+    .floating-nav ul {
+      font-size: 1.2em;
+      margin: 0;
+    }
+
+    .floating-nav ul li {
+      border-bottom: 1px solid #eff2f6;
+    }
+
+    .floating-nav ul li a {
+      padding: 20px;
+      text-decoration: none;
+      color: #357ebd;
+      display: block;
+    }
+
+    .floating-nav ul li a:hover {
+      color: #1f496e;
+    }
+
+    .floating-nav ul li:last-child {
+      border-bottom: 0;
+    }
+
+    .floating-nav.is-visible {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: transform 0.3s, visibility 0s 0s;
+      -o-transition: transform 0.3s, visibility 0s 0s;
+      transition: transform 0.3s, visibility 0s 0s;
+      visibility: visible;
+    }
+
+    @media (max-width: 992px) {
+      .profile-card-wrapper {
+        position: relative;
+      }
+    }
+
+    .profile-card-wrapper .profile-card {
+      padding: 10px;
+    }
+
+    .profile-pic {
+      padding: 20px 0;
+    }
+
+    @media (max-width: 992px) {
+      .profile-pic {
+        padding: 10px 0;
+      }
+    }
+
+    .profile-pic img {
+      width: 100px;
+      height: 100px;
+    }
+
+    @media (max-width: 992px) {
+      .name {
+        margin-top: 10px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .contact-details {
+        text-align: center;
+      }
+    }
+
+    .contact-details .detail {
+      display: table;
+      padding: 10px 0;
+    }
+
+    .contact-details .detail .icon {
+      padding: 0 10px;
+      color: #707070;
+    }
+
+    @media (max-width: 992px) {
+      .contact-details .detail .icon {
+        padding: 0 5px 0 0;
+      }
+    }
+
+    .contact-details .detail .info {
+      font-size: 0.8em;
+    }
+
+    .contact-details .detail .icon,
+    .contact-details .detail .info {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    @media (max-width: 768px) {
+      .contact-details .detail {
+        position: relative;
+        float: left;
+        width: 100%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .contact-details .detail {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding: 10px;
+      }
+
+      .contact-details .detail .icon,
+      .contact-details .detail .info {
+        display: inline-block;
+      }
+    }
+
+    @media (max-width: 992px) and (min-width: 768px) {
+      .contact-details .detail {
+        float: left;
+        width: 25%;
+      }
+    }
+
+    .social-links {
+      line-height: 2.5;
+    }
+
+    .social-link {
+      margin-left: 5px;
+      min-width: 35px;
+      display: inline-block;
+    }
+
+    .social-link:first-child {
+      margin-left: 0;
+    }
+
+    .social-link:hover {
+      text-decoration: none;
+    }
+
+    .link-github {
+      color: #454545;
+    }
+
+    .link-github:hover,
+    .link-github:focus {
+      text-decoration: none;
+      color: #2b2b2b;
+    }
+
+    .link-twitter {
+      color: #33ccff;
+    }
+
+    .link-twitter:hover,
+    .link-twitter:focus {
+      text-decoration: none;
+      color: #00bfff;
+    }
+
+    .link-blog {
+      color: #f36f24;
+    }
+
+    .link-blog:hover,
+    .link-blog:focus {
+      text-decoration: none;
+      color: #d8560c;
+    }
+
+    .link-linkedin {
+      color: #007bb6;
+    }
+
+    .link-linkedin:hover,
+    .link-linkedin:focus {
+      text-decoration: none;
+      color: #005983;
+    }
+
+    .link-skype {
+      color: #12A5F4;
+    }
+
+    .link-skype:hover,
+    .link-skype:focus {
+      text-decoration: none;
+      color: #0986ca;
+    }
+
+    .link-instagram {
+      color: #e4405f;
+    }
+
+    .link-instagram:hover,
+    .link-instagram:focus {
+      text-decoration: none;
+      color: #d31e40;
+    }
+
+    .link-stackoverflow {
+      color: #8e8e92;
+    }
+
+    .link-stackoverflow:hover,
+    .link-stackoverflow:focus {
+      text-decoration: none;
+      color: #747479;
+    }
+
+    .link-stackexchange {
+      color: #62b0df;
+    }
+
+    .link-stackexchange:hover,
+    .link-stackexchange:focus {
+      text-decoration: none;
+      color: #389bd6;
+    }
+
+    .link-lastfm {
+      color: #d12127;
+    }
+
+    .link-lastfm:hover,
+    .link-lastfm:focus {
+      text-decoration: none;
+      color: #a51a1f;
+    }
+
+    .link-soundcloud {
+      color: #e8822d;
+    }
+
+    .link-soundcloud:hover,
+    .link-soundcloud:focus {
+      text-decoration: none;
+      color: #cc6916;
+    }
+
+    .link-googleplus {
+      color: #dd4b39;
+    }
+
+    .link-googleplus:hover,
+    .link-googleplus:focus {
+      text-decoration: none;
+      color: #c23321;
+    }
+
+    .link-youtube {
+      color: #dd4b39;
+    }
+
+    .link-youtube:hover,
+    .link-youtube:focus {
+      text-decoration: none;
+      color: #c23321;
+    }
+
+    .link-pinterest {
+      color: #bd091f;
+    }
+
+    .link-pinterest:hover,
+    .link-pinterest:focus {
+      text-decoration: none;
+      color: #8c0717;
+    }
+
+    .link-gratipay {
+      color: #630;
+    }
+
+    .link-gratipay:hover,
+    .link-gratipay:focus {
+      text-decoration: none;
+      color: #331a00;
+    }
+
+    .link-vimeo {
+      color: #17b3e8;
+    }
+
+    .link-vimeo:hover,
+    .link-vimeo:focus {
+      text-decoration: none;
+      color: #128fba;
+    }
+
+    .link-behance {
+      color: #2c98cf;
+    }
+
+    .link-behance:hover,
+    .link-behance:focus {
+      text-decoration: none;
+      color: #2379a5;
+    }
+
+    .link-codepen {
+      color: #1c1c1c;
+    }
+
+    .link-codepen:hover,
+    .link-codepen:focus {
+      text-decoration: none;
+      color: #020202;
+    }
+
+    .link-foursquare {
+      color: #fa4778;
+    }
+
+    .link-foursquare:hover,
+    .link-foursquare:focus {
+      text-decoration: none;
+      color: #f91554;
+    }
+
+    .link-reddit {
+      color: #545454;
+    }
+
+    .link-reddit:hover,
+    .link-reddit:focus {
+      text-decoration: none;
+      color: #3b3b3b;
+    }
+
+    .link-spotify {
+      color: #acd200;
+    }
+
+    .link-spotify:hover,
+    .link-spotify:focus {
+      text-decoration: none;
+      color: #829f00;
+    }
+
+    .link-tumblr {
+      color: #2d4661;
+    }
+
+    .link-tumblr:hover,
+    .link-tumblr:focus {
+      text-decoration: none;
+      color: #1d2d3e;
+    }
+
+    .link-dribbble {
+      color: #ce366f;
+    }
+
+    .link-dribbble:hover,
+    .link-dribbble:focus {
+      text-decoration: none;
+      color: #a82959;
+    }
+
+    .link-facebook {
+      color: #4b6daa;
+    }
+
+    .link-facebook:hover,
+    .link-facebook:focus {
+      text-decoration: none;
+      color: #3b5687;
+    }
+
+    .link-angellist {
+      color: black;
+    }
+
+    .link-angellist:hover,
+    .link-angellist:focus {
+      text-decoration: none;
+      color: #000000;
+    }
+
+    .link-bitbucket {
+      color: #205081;
+    }
+
+    .link-bitbucket:hover,
+    .link-bitbucket:focus {
+      text-decoration: none;
+      color: #163758;
+    }
+
+    .link-hackernews {
+      color: #ff6600;
+    }
+
+    .link-hackernews:hover,
+    .link-hackernews:focus {
+      text-decoration: none;
+      color: #cc5200;
+    }
+
+    .link-exercism {
+      color: #d81d4e;
+    }
+
+    .link-exercism:hover,
+    .link-exercism:focus {
+      text-decoration: none;
+      color: #ab173e;
+    }
+
+    .link-blogger {
+      color: #FF9234;
+    }
+
+    .link-blogger:hover,
+    .link-blogger:focus {
+      text-decoration: none;
+      color: #ff7701;
+    }
+
+    .link-medium {
+      color: #00AB6C;
+    }
+
+    .link-medium:hover,
+    .link-medium:focus {
+      text-decoration: none;
+      color: #00784c;
+    }
+
+    .link-flickr {
+      color: black;
+    }
+
+    .link-flickr:hover,
+    .link-flickr:focus {
+      text-decoration: none;
+      color: #000000;
+    }
+
+    .link-telegram {
+      color: #3BABDD;
+    }
+
+    .link-telegram:hover,
+    .link-telegram:focus {
+      text-decoration: none;
+      color: #2291c3;
+    }
+
+    .card-skills {
+      position: relative;
+    }
+
+    .skill-level {
+      border-radius: 3px;
+      position: absolute;
+      top: 10px;
+      bottom: 10px;
+      left: 0;
+      width: 10px;
+      box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .skill-level .skill-progress {
+      position: absolute;
+      border-radius: 3px;
+      bottom: 0;
+      width: 100%;
+      -webkit-transition: height 1s ease;
+    }
+
+    .skill-level .skill-progress.beginner {
+      height: 50%;
+      background: #e74c3c;
+    }
+
+    .skill-level .skill-progress.intermediate {
+      height: 70%;
+      background: #f1c40f;
+    }
+
+    .skill-level .skill-progress.advanced {
+      height: 80%;
+      background: #428bca;
+    }
+
+    .skill-level .skill-progress.master {
+      height: 95%;
+      background: #5cb85c;
+    }
+
+    .skill-info {
+      margin-left: 15px;
+    }
+
+    @media (max-width: 480px) {
+      .skill-info {
+        margin-left: 20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .quote {
+        font-size: inherit;
+      }
+    }
+
+    .icon-meetup .path2:before {
+      margin-left: 0;
+    }
+
+    @media print {
+      a[href]:after {
+        content: none !important;
+      }
+
+      .profile-card {
+        text-align: center;
+      }
+
+      .profile-pic {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .profile-pic img {
+        border-radius: 0;
+      }
+
+      .name-and-profession {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 15px;
+      }
+
+      .contact-details .detail {
+        position: relative;
+        float: left;
+        width: 25%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding: 0;
+      }
+
+      .floating-nav,
+      .floating-nav-trigger {
+        display: none;
+      }
+
+      .pagebreak {
+        page-break-before: always;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="all.css" media="all">
+  <link rel="stylesheet" href="css" media="all">
+  <script defer src="all.js"></script>
+  <script data-dapp-detection="">
+    (function () {
+      let alreadyInsertedMetaTag = false
+
+      function __insertDappDetected() {
+        if (!alreadyInsertedMetaTag) {
+          const meta = document.createElement('meta')
+          meta.name = 'dapp-detected'
+          document.head.appendChild(meta)
+          alreadyInsertedMetaTag = true
+        }
+      }
+
+      if (window.hasOwnProperty('web3')) {
+        // Note a closure can't be used for this var because some sites like
+        // www.wnyc.org do a second script execution via eval for some reason.
+        window.__disableDappDetectionInsertion = true
+        // Likely oldWeb3 is undefined and it has a property only because
+        // we defined it. Some sites like wnyc.org are evaling all scripts
+        // that exist again, so this is protection against multiple calls.
+        if (window.web3 === undefined) {
+          return
+        }
+        __insertDappDetected()
+      } else {
+        var oldWeb3 = window.web3
+        Object.defineProperty(window, 'web3', {
+          configurable: true,
+          set: function (val) {
+            if (!window.__disableDappDetectionInsertion)
+              __insertDappDetected()
+            oldWeb3 = val
+          },
+          get: function () {
+            if (!window.__disableDappDetectionInsertion)
+              __insertDappDetected()
+            return oldWeb3
+          }
+        })
+      }
+    })()</script>
+</head>
+
+<body itemscope="itemscope" itemtype="http://schema.org/Person">
+  <div class="container-fluid">
+    <div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i
+          class="icon-bars"></i><span class="close-icon">×</span></a>
+      <nav class="floating-nav js-floating-nav">
+        <ul class="list-unstyled">
+          <li><a href="#about"><i class="fas fa-id-card-alt"></i> About</a></li>
+          <li><a href="#work-experience"><i class="fas fa-building"></i> Work Experience</a></li>
+          <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+          <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#volunteer-work"><i class="fas fa-hands-helping"></i> Volunteer Work</a></li>
+          <li><a href="#publications"><i class="far fa-newspaper"></i> Publications</a></li>
+          <li><a href="#references"><i class="far fa-thumbs-up"></i> References</a></li>
+        </ul>
+      </nav>
+      <section class="col-md-3 card-wrapper profile-card-wrapper affix">
+        <div class="card profile-card"><span class="profile-pic-container">
+            <div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100"
+                alt="Jane Kim" src="d615c38190986c490656bb560a30b651.jpeg" itemprop="image">
+            </div>
+            <div class="name-and-profession text-center">
+              <h3 itemprop="name"><b>Jane Kim</b></h3>
+              <h5 class="text-muted" itemprop="jobTitle">Tribunus Plebis</h5>
+            </div>
+          </span>
+          <hr>
+          <div class="contact-details clearfix">
+            <div class="detail"><span class="icon"><i class="fas fa-map-marker-alt"></i></span><span
+                class="info">Dayton, OH, US</span></div>
+            <div class="detail"><span class="icon"><i class="fas fa-phone-alt"></i></span><span class="info"
+                itemprop="telephone">909 450 7666</span></div>
+            <div class="detail"><span class="icon"><i class="fas fa-envelope"></i></span><span class="info"><a
+                  class="link-disguise" href="mailto:janegkim@pm.me" itemprop="email">janegkim@pm.me</a></span></div>
+            <div class="detail"><span class="icon"><i class="fas fa-link"></i></span><span class="info"><a
+                  href="https://spilledmilk.github.io/" target="_blank">Website</a></span></div>
+            <div class="detail"><span class="icon"><i class="fab fa-linkedin"></i></span><span class="info"><a
+                  href="https://linkedin.com/in/janegkim" target="_blank">LinkedIn</a></span></div>
+            <div class="detail"><span class="icon"><i class="fab fa-github"></i></span><span class="info"><a
+                  href="https://github.com/spilledmilk" target="_blank">Github</a></span></div>
+            <div class="detail"><span class="icon" title="Languages I speak"><i class="fas fa-language"></i></span><span
+                class="info">English, Korean</span></div>
+          </div>
+          <hr>
+          <div class="social-links text-center">
+            <div><a class="fs-2x social-link link- icon-" href="https://www.linkedin.com/in/janegkim" target="_blank"
+                data-toggle="tooltip" title="" data-original-title="Jane Kim on "></a><a
+                class="fs-2x social-link link- icon-" href="https://www.linkedin.com/in/janegkim" target="_blank"
+                data-toggle="tooltip" title="" data-original-title="Jane Kim on "></a><a
+                class="fs-2x social-link link- icon-" href="https://www.linkedin.com/in/janegkim" target="_blank"
+                data-toggle="tooltip" title="" data-original-title="Jane Kim on "></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="col-md-9 card-wrapper pull-right">
+        <div class="card background-card" style="min-height: 1027px;">
+          <h4 class="text-uppercase">Background</h4>
+          <hr>
+          <div class="background-details">
+            <div class="detail" id="about">
+              <div class="icon"><i class="fas fa-id-card-alt"></i><span class="mobile-title">About</span></div>
+              <div class="info">
+                <h4 class="title text-uppercase">About</h4>
+                <div class="card card-nested">
+                  <div class="content mop-wrapper" itemprop="description">
+                    <p>Jane is a champion for the people with professional coding, QA, and support experience. She has
+                      an affinity for problem-solving, organisation, and working on multiple projects concurrently. She
+                      thrives in cooperative environments, but will also provide significant results with solo tasks.
+                      She's especially apt in adapting to different roles, learning the skills required, and getting
+                      things done.`<br>
+                      Jane is a firm believer that happiness is a key indicator for success and that it holds true
+                      across various situations: interactions (is the other person walking away with a positive
+                      feeling?), work (are team members eager to exchange ideas and learn from one another?), and
+                      projects/products (are users delighted that you've helped make their lives easier?).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="detail" id="work-experience">
+              <div class="icon"><i class="fas fa-building"></i><span class="mobile-title">Work Experience</span></div>
+              <div class="info">
+                <h4 class="title text-uppercase">Work Experience</h4>
+                <ul class="list-unstyled clear-margin">
+                  <li class="card card-nested clearfix">
+                    <div class="content">
+                      <p class="clear-margin relative"><i class="fas fa-circle current-event" rel="tooltip"
+                          title="Currently Working" data-placement="left"></i><strong>Senior Product Support
+                          Specialist</strong>,&nbsp;<a href="https://squarespace.com/" target="_blank">Squarespace</a>
+                      </p>
+                      <p class="text-muted"><small><span class="space-right">Oct, 2018 - Present</span></small></p>
+                      <div class="mop-wrapper space-bottom">
+                        <p>Working on the Scheduling team at Squarespace.</p>
+                      </div>
+                      <ul>
+                        <li class="mop-wrapper" style="
+    list-style-type: none;
+">
+                          <p style="
+    font-weight: bold;
+">Development:</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Help with bug fixes for user interface.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Enhance features and functionality in backend for better user experience, namely, adding
+                            logic (PHP).</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Help with investigation tickets from the developer Jira and Trello boards.</p>
+                        </li><br>
+                        <li class="mop-wrapper" style="
+    list-style-type: none;
+">
+                          <p style="
+    font-weight: bold;
+">Quality Assurance:</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Act as one of the QA leads, namely the automation expert, to help overhaul Acuity QA
+                            process.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Manage manual QA support side-track advisors to help guide testing.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Added templates for test plans to use for manual testing.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Help test new features for release.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Maintain and improve Ghost Inspector tests (browser testing on production).</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Act as liaison between Acuity and Squarespace QA team.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Advocated for Cypress for testing automation framework for E2E testing; implemented by one
+                            of the developers.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Write Cypress tests and push up to code base.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Lead automation for mobile testing using Cavy.</p>
+                        </li><br>
+                        <li class="mop-wrapper" style="
+    list-style-type: none;
+">
+                          <p style="
+    font-weight: bold;
+">Support:</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Provide technical support (tier 3) for issues that come through from customer support
+                            advisors.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Provide API and development support for users of Acuity.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Create bug and investigation tickets for issues that come through support.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Act as a bridge between customer support advisors and development team.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Track trends from users and customer support team.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Lead bi-weekly meetings for support team that deals with more difficult questions from
+                            users.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Write custom scripts for users to customise look, feel, and functionality of public
+                            scheduling pages.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Provide CSS customisation help for customer support advisors when users write in.</p>
+                        </li><br>
+                        <li class="mop-wrapper" style="
+    list-style-type: none;
+">
+                          <p style="
+    font-weight: bold;
+">Feedback Support:</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Work with UI team in Asana.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Test triaged tickets, that deal with feedback about functionality, within Asana.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Report bugs to fix, UI improvement suggestions, and edge cases.</p>
+                        </li><br>
+                        <li class="mop-wrapper" style="
+    list-style-type: none;
+">
+                          <p style="
+    font-weight: bold;
+">Internal Documentation:</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Lead for the internal documentation project using Confluence.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Create and update documentation.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Create training documentation for new hires.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Migrate internal information from Lessonly.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Create training documents used for training new customer support advisors.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Work with technical writer and other customer support advisors/managers to overhaul
+                            internal information.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="card card-nested clearfix">
+                    <div class="content">
+                      <p class="clear-margin relative"><strong>Happiness Developer</strong>,&nbsp;<a
+                          href="https://acuityscheduling.com/" target="_blank">Acuity Scheduling</a></p>
+                      <p class="text-muted"><small><span class="space-right">Oct, 2018 - Apr, 2019</span><span><i
+                              class="icon-clock mr-5"></i>6 months</span></small></p>
+                      <div class="mop-wrapper space-bottom">
+                        <p>Hybrid role created by the CEO for developing skills outside of customer support and utilise
+                          technical knowledge.</p>
+                      </div>
+                      <ul>
+                        <li class="mop-wrapper" style="
+    list-style-type: none;
+">
+                          <p style="
+    /* list-style-type: none; */
+    font-weight: bold;
+">Support:</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Member of the "Challenging" team to help customer support team with more technical issues
+                            (Tier 3 support)</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Helped customers with API questions and custom integration questions</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Write custom scripts for users to customise look, feel, and functionality of public
+                            scheduling pages.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Provide CSS customisation help for customer support advisors when users write in.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Helped with training new hires.</p>
+                        </li><br>
+                        <li class="mop-wrapper" style="
+    list-style-type: none;
+">
+                          <p style="
+    font-weight: bold;
+">Development:</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Assisted with bug fixes and UI changes by taking ownership of development tickets in
+                            Trello.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Reviewed code before any code changes are merged into master.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Added functionality to Help Scout (email support application) to display more information
+                            about user accounts at a glance to help the customer support team.</p>
+                        </li><br>
+                        <li class="mop-wrapper" style="
+    list-style-type: none;
+">
+                          <p style="
+    font-weight: bold;
+">Quality Assurance:</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Manually tested features (to be released and those already released) to ensure seamless
+                            experience for users.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Maintained and improved automated testing set up in Ghost Inspector.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Created automated tests in Ghost Inspector on as-needed basis.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="card card-nested clearfix">
+                    <div class="content">
+                      <p class="clear-margin relative"><strong>Customer Happiness Specialist</strong>,&nbsp;<a
+                          href="https://acuityscheduling.com/" target="_blank">Acuity Scheduling</a></p>
+                      <p class="text-muted"><small><span class="space-right">Feb, 2017 - Oct, 2018</span><span><i
+                              class="icon-clock mr-5"></i>1 year 7 months</span></small></p>
+                      <div class="mop-wrapper space-bottom">
+                        <p>Customer support expert.</p>
+                      </div>
+                      <ul>
+                        <li class="mop-wrapper">
+                          <p>Helped customers via email support; answered pre-sales questions, account set-up
+                            suggestions based on business needs, and technical questions.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Provided support to the support team by adding shortcuts not native to Help Scout via
+                            Tampermonkey.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Provided CSS customisation support to users and support team.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Helped with training new support team hires.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="card card-nested clearfix">
+                    <div class="content">
+                      <p class="clear-margin relative"><strong>Web Development &amp; Customer Success
+                          Contractor</strong>,&nbsp;<a href="https://hunter.co/" target="_blank">Hunter</a></p>
+                      <p class="text-muted"><small><span class="space-right">May, 2016 - Aug, 2016</span><span><i
+                              class="icon-clock mr-5"></i>3 months</span></small></p>
+                      <div class="mop-wrapper space-bottom">
+                        <p>Feature lead for help center and point of contact for support queries.</p>
+                      </div>
+                      <ul>
+                        <li class="mop-wrapper">
+                          <p>Architected and set up the help center portion of Email Hunter's site so customers could
+                            have access to answers of several frequently asked questions without relying solely on a
+                            reply from myself or my two coworkers.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Implemented FAQ &amp; FAQ Category sections in the admin console so the team could easily
+                            CRUD the questions/answers and their respective categories.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Compiled and categorised questions for the help center, based on data collected from
+                            providing support to customers.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Collaborated with teammates frequently to discuss improvements regarding the service, user
+                            experience, and feature needs.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="card card-nested clearfix">
+                    <div class="content">
+                      <p class="clear-margin relative"><strong>Software Consultant</strong>,&nbsp;S.A.V.E. Inc</p>
+                      <p class="text-muted"><small><span class="space-right">Jul, 2013 - May, 2015</span><span><i
+                              class="icon-clock mr-5"></i>1 year 9 months</span></small></p>
+                      <div class="mop-wrapper space-bottom">
+                        <p>Hired on contract to increase efficiency for other engineers by assisting in updating DOS
+                          software to Visual Basic for purposes of instrument control and data acquisition.</p>
+                      </div>
+                      <ul>
+                        <li class="mop-wrapper">
+                          <p>Consulted on best software choice for upgrading old software.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Compiled and wrote documentation on how to configure VB software to connect to different
+                            measurement instruments (i.e. power meter).</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Added in write-to-file and save features to existing VB software.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Made workflow more efficient through research and learning (i.e. how to make instruments
+                            communicate with computer using different ports), teaching (i.e. commented on example
+                            software code so others can use it when writing new software; how to use VB so old quick
+                            basic software can be converted and new software can be written).</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Commented code for newly acquired instruments (and old) used in electronics testing, namely
+                            figuring out libraries and variables to use in order to communicate with instruments (power
+                            meters, etc.) and be able to receive some kind of output (i.e. readings from instruments)
+                            after sending an input command.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="card card-nested clearfix">
+                    <div class="content">
+                      <p class="clear-margin relative"><strong>Graphic Design Intern</strong>,&nbsp;<a
+                          href="http://www.sidechef.com/" target="_blank">SideChef</a></p>
+                      <p class="text-muted"><small><span class="space-right">Sep, 2014 - Dec, 2014</span><span><i
+                              class="icon-clock mr-5"></i>2 months</span></small></p>
+                      <div class="mop-wrapper space-bottom">
+                        <p>Provided community development and marketing teams with design and technical assistance for
+                          promotional projects.</p>
+                      </div>
+                      <ul>
+                        <li class="mop-wrapper">
+                          <p>Designed and coded responsive e-mail template for community newsletters.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Updated and designed social media headers to promote app availability on new platforms.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Jumpstarted initial phases for site re-design (chose layout and imported some existing
+                            materials).</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Created promotional graphics for events.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="card card-nested clearfix">
+                    <div class="content">
+                      <p class="clear-margin relative"><strong>Jr. QA Engineer</strong>,&nbsp;<a
+                          href="http://www.liferay.com/" target="_blank">Liferay</a></p>
+                      <p class="text-muted"><small><span class="space-right">Aug, 2013 - Jun, 2014</span><span><i
+                              class="icon-clock mr-5"></i>10 months</span></small></p>
+                      <div class="mop-wrapper space-bottom">
+                        <p>Performed general software testing for Liferay's portal software on several combinations of
+                          app servers + environments + databases and was a main member of the team that launched the
+                          e-commerce Marketplace for Liferay.</p>
+                      </div>
+                      <ul>
+                        <li class="mop-wrapper">
+                          <p>Wrote automated tests for Liferay's portal software using Selenium and Webdriver.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Worked with community developers to get their submitted apps on the Marketplace.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Checked submitted apps for compatibility -- smoke test and ensure there's no interference
+                            with portal software.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Updated and uploaded compatible apps to marketplace and submitted metadata changes for
+                            Liferay apps ready for release.</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Designated person for troubleshooting Solr (connecting different versions to Liferay) --
+                            worked with the support team and their clients.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="detail" id="skills">
+              <div class="icon"><i class="fas fa-tools"></i><span class="mobile-title">Skills</span></div>
+              <div class="info">
+                <h4 class="title text-uppercase">Skills</h4>
+                <div class="content">
+                  <ul class="list-unstyled clear-margin">
+                    <li class="card card-nested card-skills">
+                      <div class="skill-info"><strong>Tools</strong>
+                        <div class="space-top labels"><span class="label label-keyword">Vim</span><span
+                            class="label label-keyword">Visual Studio Code</span><span
+                            class="label label-keyword">iTerm</span><span class="label label-keyword">Jetbrains
+                            Software</span><span class="label label-keyword">Postman</span>
+                          <span class="label label-keyword">Slack</span></div>
+                      </div>
+                    </li>
+                    <li class="card card-nested card-skills">
+                      <div class="skill-info"><strong>Issue Tracking</strong>
+                        <div class="space-top labels"><span class="label label-keyword">JIRA</span><span
+                            class="label label-keyword">Github</span><span class="label label-keyword">Trello</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="card card-nested card-skills">
+                      <div class="skill-info"><strong>Design</strong>
+                        <div class="space-top labels"><span class="label label-keyword">Sketch</span><span
+                            class="label label-keyword">Balsamiq</span><span
+                            class="label label-keyword">Illustrator</span><span
+                            class="label label-keyword">Wireframing</span><span
+                            class="label label-keyword">Mockups</span><span
+                            class="label label-keyword">Prototyping</span></div>
+                      </div>
+                    </li>
+                    <li class="card card-nested card-skills">
+                      <div class="skill-info"><strong>Development</strong>
+                        <div class="space-top labels"><span class="label label-keyword">HTML/CSS</span><span
+                            class="label label-keyword">jQuery</span><span
+                            class="label label-keyword">Javascript</span><span
+                            class="label label-keyword">Ruby/RoR</span><span class="label label-keyword">PHP</span><span
+                            class="label label-keyword">API Support</span></div>
+                      </div>
+                    </li>
+                    <li class="card card-nested card-skills">
+                      <div class="skill-info"><strong>Soft Skills</strong>
+                        <div class="space-top labels"><span class="label label-keyword">Effective
+                            communication</span><span class="label label-keyword">Organisation</span><span
+                            class="label label-keyword">Abstract thinking</span><span class="label label-keyword">Team
+                            mentality</span><span class="label label-keyword">Quick learner</span><span
+                            class="label label-keyword">Extremely detail-oriented</span><span
+                            class="label label-keyword">Adaptable</span><span class="label label-keyword">Comfort with
+                            context-switching</span></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="detail" id="education">
+              <div class="icon"><i class="fas fa-graduation-cap"></i><span class="mobile-title">Education</span>
+              </div>
+              <div class="info">
+                <h4 class="title text-uppercase">Education</h4>
+                <div class="content">
+                  <ul class="list-unstyled clear-margin">
+                    <li class="card card-nested">
+                      <div class="content">
+                        <p class="clear-margin relative"><i class="fas fa-circle current-event" rel="tooltip"
+                            title="Currently Pursuing" data-placement="left"></i><strong>Computer
+                            Science,&nbsp;</strong>University of Illinois, Springfield</p>
+                        <p class="text-muted clear-margin"><small>Aug, 2017 - Present</small></p><i></i>
+                      </div>
+                    </li>
+                    <li class="card card-nested">
+                      <div class="content">
+                        <p class="clear-margin relative"><strong>UX Research &amp; Design,
+                            Apprenticeship,&nbsp;</strong>Bloc</p>
+                        <p class="text-muted clear-margin"><small>Jan, 2015 - Sep, 2015</small></p><i></i>
+                      </div>
+                    </li>
+                    <li class="card card-nested">
+                      <div class="content">
+                        <p class="clear-margin relative"><strong>Psychology, Bachelor of Arts,&nbsp;</strong>University
+                          of California, Riverside</p>
+                        <p class="text-muted clear-margin"><small>Sep, 2008 - Sep, 2012</small></p><i></i>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="detail" id="volunteer-work">
+              <div class="icon"><i class="fas fa-hands-helping"></i><span class="mobile-title">Volunteer Work</span>
+              </div>
+              <div class="info">
+                <h4 class="title text-uppercase">Volunteer Work</h4>
+                <div class="content">
+                  <ul class="list-unstyled clear-margin">
+                    <li class="card card-nested">
+                      <div class="content">
+                        <p class="clear-margin relative"><strong>Development Volunteer, </strong><a
+                            href="http://www.venicefamilyclinic.org/" target="_blank">Venice Family Clinic</a></p>
+                        <p class="text-muted"><small>Oct, 2012 - Jul, 2013</small></p>
+                        <div class="mop-wrapper">
+                          <p>Assisted in both the medical records department and the development department.</p>
+                        </div>
+                        <ul>
+                          <li class="mop-wrapper">
+                            <p>Organised patient records and updated records accordingly with test results and paperwork
+                            </p>
+                          </li>
+                          <li class="mop-wrapper">
+                            <p>Worked with graphic designer to prepare materials for print and web for the Venice Art
+                              Walk (promotions, signs and information sheets for event)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="card card-nested">
+                      <div class="content">
+                        <p class="clear-margin relative"><strong>Health Volunteer, </strong><a
+                            href="http://www.lomalindahealth.org/" target="_blank">Loma Linda University Medical
+                            Center</a></p>
+                        <p class="text-muted"><small>Sep, 2011 - Jun, 2012</small></p>
+                        <div class="mop-wrapper">
+                          <p>Assisted staff and patients in the E.R.</p>
+                        </div>
+                        <ul>
+                          <li class="mop-wrapper">
+                            <p>Ensured there was no shortage in medical supplies for caregivers in all rooms of the
+                              department</p>
+                          </li>
+                          <li class="mop-wrapper">
+                            <p>Assisted staff with paperwork - organising, filing, putting together paperwork for
+                              patients</p>
+                          </li>
+                          <li class="mop-wrapper">
+                            <p>Handled medical files within the department - ensure they correctly get to the right
+                              caregiver, sorting by case status</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="detail" id="publications">
+              <div class="icon"><i class="far fa-newspaper"></i><span class="mobile-title">Publications</span></div>
+              <div class="info">
+                <h4 class="title text-uppercase">Publications</h4>
+                <div class="content">
+                  <ul class="list-unstyled clear-margin">
+                    <li class="card card-nested">
+                      <div class="content">
+                        <p class="clear-margin"><strong>Student Essay - Nickel and Dimed Evaluation, </strong>Bedford
+                          Books</p>
+                        <p class="text-muted"><small>Published on: Invalid date</small></p>
+                        <div class="mop-wrapper">
+                          <p>Student essay, submitted by college English professor, published in Sticks and Stones and
+                            Other Student Essays (7th Edition), evaluating the novel Nickel and Dimed (written by
+                            Barbara Ehrenreich).</p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="detail" id="references">
+              <div class="icon"><i class="far fa-thumbs-up"></i><span class="mobile-title">References</span></div>
+              <div class="info">
+                <h4 class="title text-uppercase">References</h4>
+                <div class="content">
+                  <ul class="list-unstyled clear-margin">
+                    <li class="card card-nested" style="font-weight: bold;">Nicole Geosits, Custops Manager @
+                      Squarespace, Email: ngeosits@squarespace.com</li>
+                    <li class="card card-nested" style="
+    font-weight: bold;
+">Jordan Vartanian, Software Engineer @ Squarespace, Email: jvartanian@squarespace.com</li>
+                    <li class="card card-nested" style="
+    font-weight: bold;
+">Fortècia Smith, Advisor @ Squarespace, Email: fsmith@squarespace.com</li>
+                    <li class="card card-nested" style="
+    font-weight: bold;
+">Antoine Finkelstein, Co-founder @ Hunter<blockquote class="quote">
+                        <div class="mop-wrapper">
+                          <p style="
+    font-weight: normal;
+    font-size: smaller;
+">Working with Jane at Email Hunter was a great pleasure. As a success engineer, she managed to be effectively manage
+                            communications with clients. In a matter of days, she was handling dozens of requests per
+                            day, allowing us to maximize the conversion rates and avoiding churn. Her writing fitted
+                            perfectly with the tone of the company. At the same time, every message was precise and
+                            answered the question of the user. Being also skilled in design and web development, Jane
+                            quickly started helping on the development of our service. She was able to carry out full
+                            projects from the concept to the deployment. The technical side was well done and the code
+                            produced was well tested and maintainable. At the same time, Jane has a passion for design,
+                            which she applied to iterate on the UX to end up with best version for the users. This was
+                            possible considering her skills in Javascript. On a more personal level, Jane was great to
+                            work with. She is a great communicator and made every interaction with her a breeze. Her
+                            enthusiasm and ability to adapt to the goals of the company were exactly what we expected.
+                            We couldn’t have asked for more. I warmly recommend Jane and I am confident she would be a
+                            great asset to any team.</p>
+                        </div>
+                      </blockquote>
+                    </li>
+                    <li class="card card-nested" style="
+    font-weight: bold;
+">Jeffrey Yang, QA Engineer @ Liferay, Inc.<blockquote class="quote">
+                        <div class="mop-wrapper">
+                          <p style="
+    font-size: smaller;
+    font-weight: normal;
+">Jane is an extremely hard worker and able to handle and learn at an incredible rate. I managed Jane during her time
+                            at Liferay, we worked together directly and on a daily basis. During that time Jane had a
+                            drive and a passion to improve all aspect of the QA process. I was impressed by how quickly
+                            she was able to learn and improve upon existing processes. She was instrumental in setting
+                            up and streamlining our automated servers. Her drive to improve was reflected not only in
+                            challenging tasks but extended to all aspects of her work. Assigning work to her guaranteed
+                            that it would be finished in a timely manner and would be of the highest quality. I heartily
+                            recommend Jane and her work at Liferay is still felt. Jane was a solid member of the team
+                            and is missed.</p>
+                        </div>
+                      </blockquote>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="webfont.js" type="text/javascript" async=""></script>
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script>$(function () {
+      var toggleFloatingMenu = function () {
+        $('.js-floating-nav').toggleClass('is-visible');
+        $('.js-floating-nav-trigger').toggleClass('is-open');
+      };
+
+      $(".background-card").css("min-height", window.screen.availHeight + "px");
+      $("[data-toggle=tooltip]").tooltip();
+      $('.js-floating-nav-trigger').on('click', function (e) {
+        e.preventDefault();
+        toggleFloatingMenu();
+      });
+      $('.js-floating-nav a').on('click', toggleFloatingMenu);
+
+      $("#remaining-profiles").on('show.bs.collapse', function () {
+        $('.js-profiles-collapse > i')
+          .removeClass('icon-chevron-down')
+          .addClass('icon-chevron-up');
+      });
+
+      $("#remaining-profiles").on('hidden.bs.collapse', function () {
+        $('.js-profiles-collapse > i')
+          .removeClass('icon-chevron-up')
+          .addClass('icon-chevron-down');
+      });
+    });
+  </script>
+  <script>WebFontConfig = {
+      google: { families: ['Lato:300,400,700:latin'] }
+    };
+    (function () {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();</script>
+</body>
+
+</html>
